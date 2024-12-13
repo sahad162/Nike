@@ -1,1 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Doto:wght@100..900&family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans+JP:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Doto:wght@100..900&family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans+JP:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Doto:wght@100..900&family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=League+Gothic&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans+JP:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Doto:wght@100..900&family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=League+Gothic&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans+JP:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Open Sans;
+}
+
+body{
+    background: linear-gradient(to right,black,purple,black);
+}
+
+.desk_nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: Montserrat;
+    padding: 4px;
+    transition: 0.8s ease-in-out;
+}
+
+.desk_nav ul li a:hover{
+    background-color: white;
+    color: black;
+    border-radius: 50px;
+   
+
+}
+
+.desk_nav ul li{
+    list-style: none;
+}
+
+.desk_nav .mainul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.desk_nav span{
+    font-size:x-large;
+}
+
+.desk_nav input{
+    width: 150px;
+    border-radius: 50px;
+}
+
+.desk_nav input::placeholder{
+    font-family: poppins;
+    font-size: small;
+    text-align: center;
+}
+
+.desk_nav button{
+    border-radius: 50%;
+    padding: 3px;
+    position: absolute;
+    left: 107px;
+    
+}
+
+.icons{
+    position: absolute;
+    left: 127px;
+    top: 6px;
+}
+
+.desk_nav input:focus{
+    outline-color: #46a39c;
+}
+
+.desk_nav input:focus + .icons{
+    opacity: 0;
+}
+
+.mob_nav ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.mob_nav ul li{
+    list-style: none;
+}
+
+.mob_nav .nav-list li a{
+    text-decoration: none;
+    font-size: larger;
+    color: white;
+    transition: 1s;
+}
+
+.canvas-list{
+    display: flex;
+    flex-direction: column;
+    font-family: poppins;
+    gap: 20px;
+}
+
+.canvas-list li a:hover{
+    color: purple;
+  
+    
+    
+}
+
+.carosel{
+    position: relative;
+}
+
+.img1{
+    margin-left: 30%; 
+    transform: rotate(-55deg);
+    position: relative;
+}
+
+.img1-lg{
+
+    margin-left: 15%; 
+    transform: rotate(-55deg);
+    position: relative;
+}
+
+.img1-sm{
+    margin-left: 10%;
+    transform: rotate(-55deg);
+    position: relative;
+}
+
+.img1-xs{
+
+    margin-left: 7%;
+    transform: rotate(-55deg);
+    position: relative;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.content{
+    position: absolute;
+    top:70px;
+    
+    
+}
+
+.content p{
+    max-width: 400px;
+    font-size: small;
+    color: rgb(256,256,256,0.4);
+    position: absolute;
+    left: 532px;
+    top: 292px;
+    
+}
+.content h2{
+    font-family:League Gothic;
+    font-size: 8em;
+    line-height: 2em;
+    text-transform: uppercase;
+    position: relative;
+    top: 24px;
+}
+
+.content h5{
+    position: relative;
+    top: -9px;
+    right: 5px;
+    font-family: Poppins;
+}
+
+
+.content .button{
+    display: flex;
+    gap: 10px;
+    margin-left: 20px;
+    position: absolute;
+    left: 595px;
+    top: 390px;
+
+}
+
+.but{
+    border-radius: 50px;
+    padding: 10px;
+    font-family: poppins;
+    border: none;
+    background-color: transparent;
+    color: white;
+   
+}
+
+.but:nth-child(1){
+    background: linear-gradient(to right,#81baa0,#46a39c);
+    border: 2px solid transparent;
+}
+
+.but:nth-child(2){
+    border: 2px solid #81baa0;
+    
+}
+
+.but:nth-child(2):hover{
+    background-image: linear-gradient(#81baa0,#46a39c);
+    transition: 2s;
+}
+
+
+.items{
+    transition: 0.5s;
+}
+
 

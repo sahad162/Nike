@@ -1,1 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nike. Just Do It. Nike In</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="shortcut icon"
+      href="https://cdn.freebiesupply.com/logos/large/2x/nike-4-logo-svg-vector.svg"
+      type="image/x-icon"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+      integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+  </head>
 
+  <body>
+    <!-- header -->
+    <section class="home container-fluid">
+      <header>
+        <nav class="container-fluid d-none d-xl-block">
+          <div class="row">
+            <div class="col-4 mt-2">
+              <img class="img-fluid w-25 ms-4" src="./assets/nike.png" alt="" />
+            </div>
+
+            <div class="col-4 desk_nav mt-3">
+              <ul class="mainul">
+                <li><a href="">Home</a></li>
+                <li><a href="">Mens</a></li>
+                <li><a href="">Kids</a></li>
+                <li><a href="">Womens</a></li>
+                <li><a href="">New Arrivals</a></li>
+              </ul>
+            </div>
+
+            <div class="col-4 desk_nav mt-3 position-relative">
+              <ul class="mainul">
+                <li>
+                  <div class="input-container">
+                    <i class="fa-solid fa-magnifying-glass icons"></i>
+                    <input type="text" placeholder="Search" />
+                  </div>
+                </li>
+                <li>
+                  <span
+                    ><a href=""><i class="fa-regular fa-heart"></i></a
+                  ></span>
+                </li>
+                <li>
+                  <span
+                    ><a href=""><i class="fa-solid fa-bag-shopping"></i></a
+                  ></span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+        <nav class="container-fluid  d-block d-xl-none">
+
+          <div class="row">
+
+            <div class="col-6 mt-3">
+              <img class="img-fluid w-25 ms-4" src="./assets/nike.png" alt="" />
+            </div>
+            <div class="col-6 mob_nav mt-3">
+              <ul class="nav-list">
+                <li>
+                  <a href=""><i class="fa-solid fa-magnifying-glass"></i></a>
+                </li>
+                <li>
+                  <a href=""><i class="fa-regular fa-user"></i></a>
+                </li>
+                <li>
+                  <a href=""><i class="fa-solid fa-bag-shopping"></i></a>
+                </li>
+                <li>
+                  <a href=""  data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i class="fa-solid fa-toggle-on"></i></a>
+                  <div class="offcanvas offcanvas-end bg-dark" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                    <div class="offcanvas-header">
+                      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                      <ul class="canvas-list ">
+                        <li><a href="">Men</a></li>
+                        <li><a href="">Women</a></li>
+                        <li><a href="">kids</a></li>
+                        <li><a href="">Sales</a></li>
+                        <li><a href="">New arrivals</a></li>
+                      </ul>
+                 
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+
+          </div>
+
+        </nav>
+      </header>
+
+
+
+
+      <div id="carouselExampleCaptions" class="carousel slide d-none d-xl-block">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+
+        <div class="carousel-inner carosel">
+          <div class="carousel-item active items">
+            <img
+              src="./assets/images/nike_air1.png  "
+              class="img-fluid img1"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block content">
+              <h5>Sport Shoes</h5>
+              <h2
+                data-aos="fade-down"
+                data-aos-easing="linear"
+                data-aos-duration=""
+              >
+                Nike Air Fire fly
+              </h2>
+              <p
+                data-aos="fade-up"
+                data-aos-easing="linear"
+                data-aos-duration="3000"
+              >
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Consequatur earum corporis recusandae quaerat dolor. Ullam,
+                quisquam sequi voluptate beatae assumenda reiciendis eius, quam
+                nihil sunt commodi similique qui consectetur debitis.
+              </p>
+              <div class="button mt-3">
+                <button class="but">see more</button>
+                <button class="but">Add to cart</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item items">
+            <img
+              src="./assets/images/nike_zoom2.png"
+              class="img1 img-fluid"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block content">
+              <h5>Sport Shoes</h5>
+              <h2
+                data-aos="fade-down"
+                data-aos-easing="linear"
+                data-aos-duration="5000"
+              >
+                Nike zoom 1
+              </h2>
+              <p
+                data-aos="fade-up"
+                data-aos-easing="linear"
+                data-aos-duration="3000"
+              >
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Consequatur earum corporis recusandae quaerat dolor. Ullam,
+                quisquam sequi voluptate beatae assumenda reiciendis eius, quam
+                nihil sunt commodi similique qui consectetur debitis.
+              </p>
+              <div class="button mt-3">
+                <button class="but">see more</button>
+                <button class="but">Add to cart</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item items">
+            <img
+              src="./assets/images/nike_zoom_6.png"
+              class="img-fluid img1"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block content">
+              <h5>Sport Shoes</h5>
+              <h2
+                data-aos="fade-down"
+                data-aos-easing="linear"
+                data-aos-duration="3000"
+              >
+                Nike zoom 3
+              </h2>
+              <p
+                data-aos="fade-up"
+                data-aos-easing="linear"
+                data-aos-duration="3000"
+              >
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Consequatur earum corporis recusandae quaerat dolor. Ullam,
+                quisquam sequi voluptate beatae assumenda reiciendis eius, quam
+                nihil sunt commodi similique qui consectetur debitis.
+              </p>
+              <div class="button mt-3">
+                <button class="but">see more</button>
+                <button class="but">Add to cart</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev"
+          >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+
+
+      <div id="carouselExampleCaptions" class="carousel slide d-block d-xl-none">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+
+
+        <div class="carousel-inner carosel d-block d-sm-none">
+          <div class="carousel-item active items">
+            <img
+              src="./assets/images/nike_air1.png  "
+              class="img-fluid img1-xs"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block content">
+              <h5>Sport Shoes</h5>
+              <h2
+                data-aos="fade-down"
+                data-aos-easing="linear"
+                data-aos-duration=""
+              >
+                Nike Air Fire fly
+              </h2>
+              <div class="button mt-3">
+                <button class="but">see more</button>
+                <button class="but">Add to cart</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item items">
+            <img
+              src="./assets/images/nike_zoom2.png"
+              class="img1_nav img-fluid"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block content">
+              <h5>Sport Shoes</h5>
+              <h2
+                data-aos="fade-down"
+                data-aos-easing="linear"
+                data-aos-duration="5000"
+              >
+                Nike zoom 1
+              </h2>
+              <div class="button mt-3">
+                <button class="but">see more</button>
+                <button class="but">Add to cart</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item items">
+            <img
+              src="./assets/images/nike_zoom_6.png"
+              class="img-fluid img1_nav"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block content">
+              <h5>Sport Shoes</h5>
+              <h2
+                data-aos="fade-down"
+                data-aos-easing="linear"
+                data-aos-duration="3000"
+              >
+                Nike zoom 3
+              </h2>
+              <div class="button mt-3">
+                <button class="but">see more</button>
+                <button class="but">Add to cart</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev"
+          >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </section>
+  </body>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"
+  ></script>
+  <script>
+    AOS.init({
+      duration: 1500,
+      easing: "linear",
+      once: true, 
+    });
+  </script>
+</html>
